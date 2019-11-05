@@ -48,6 +48,9 @@
     "src",
     "styles"
   ],
+  "publishConfig": {
+    "tag": "version3"
+  },
   "dependencies": {
     "@babel/runtime": "^7.0.0",
     "classnames": ">=2.0.0",
