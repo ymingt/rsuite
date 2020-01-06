@@ -81,7 +81,7 @@ class Input extends React.Component<InputProps> {
             disabled={disabled}
             onKeyDown={this.handleKeyDown}
             onFocus={createChainedFunction(onFocus, _.get(this.context, 'onFocus'))}
-            onBlur={createChainedFunction(onBlur, _.get(this.context, 'onBlur'))}
+            onBlur={onBlur}
             className={classes}
             onChange={this.handleChange}
           />
